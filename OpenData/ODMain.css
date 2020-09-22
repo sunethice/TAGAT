@@ -1,0 +1,951 @@
+/* line 1, C:/inetpub/wwwroot/Public/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, C:/inetpub/wwwroot/Public/scss/base/_reset.scss */
+ul, li {
+  list-style: none;
+}
+
+.aa-div-hide {
+    display: none;
+}
+
+.aa-div-disable {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    color: #ccc !important;
+    cursor: default !important;
+}
+
+
+/* line 1, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+body {
+  background-color: #f8f8f8;
+  font-family: "Roboto";
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+}
+
+/* line 9, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+a, a:active, a:hover, a:visited {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+/* line 14, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+a:active, a:hover {
+  color: #333;
+}
+
+/* line 18, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+h1, h2, h3 {
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+/* line 25, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+h1 {
+  font-size: 30px;
+}
+
+/* line 30, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+p {
+  margin: 0 0 10px;
+}
+
+/* line 37, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* line 42, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+.error-msg {
+  color: #dd4b39;
+}
+
+/* line 46, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+.success-msg {
+  color: #00a65a;
+}
+
+/* line 50, C:/inetpub/wwwroot/Public/scss/base/_base.scss */
+.container {
+  width: 80%;
+}
+
+/* line 2, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav {
+  background-color: #2c3e50;
+  float: left;
+  margin-bottom: 0 !important;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+/* line 11, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav .navbar-brand {
+  font-family: arial;
+  font-size: 25px;
+}
+/* line 15, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav .navbar-brand:hover {
+  color: #fff !important;
+}
+/* line 20, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav .navbar-menu {
+  float: right;
+}
+/* line 24, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 30, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav li {
+  display: inline-block;
+}
+/* line 32, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav a {
+  color: #fff !important;
+  display: block;
+  font-weight: 500;
+  line-height: 2em;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+/* line 42, C:/inetpub/wwwroot/Public/scss/layout/_header.scss */
+nav a:hover {
+  color: #f09e35 !important;
+}
+
+/* line 2, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.top-area {
+  padding: 28px;
+}
+
+/* line 6, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: transparent;
+}
+
+/* line 10, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.navbar-header {
+  margin-left: 15px !important;
+}
+
+/* line 14, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.navbar-inverse {
+  background-color: #2c3e50;
+  border-color: #1f3143;
+}
+
+/* line 19, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: #1f3143;
+}
+
+.containerWrp {
+    height: calc(100% - 50px);
+	height: -webkit-calc(100% - 50px);
+    margin-top: 50px;
+    overflow-y: auto;
+    width: 100%;
+    float:left;
+}
+
+/* line 23, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.white-row {
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+/* line 29, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.view-filter > li {
+  display: inline-block;
+  float: left;
+}
+
+/* line 34, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.view-filter {
+  margin-left: -15px;
+}
+
+.main-filter {
+  display: table;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+/* line 54, ../scss/layout/_public.scss */
+.main-filter li {
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0 32px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+/* line 61, ../scss/layout/_public.scss */
+.main-filter li:hover {
+  color: #000;
+}
+
+/* line 69, ../scss/layout/_public.scss */
+.filter-selected {
+  font-weight: 500 !important;
+}
+
+/* line 54, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.count {
+  font-size: 17px;
+  font-weight: 300;
+  padding-top: 5px;
+}
+
+/* line 179, ../scss/layout/_public.scss */
+.filter-tool {
+  cursor: pointer;
+  float: right;
+  font-size: 17px;
+  font-weight: 300;
+  padding: 5px 10px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+/* line 186, ../scss/layout/_public.scss */
+.filter-tool:hover {
+  background-color: #ededed;
+}
+
+
+.data-wrap {
+    width: 100%;
+}
+
+/* line 59, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap > li {
+  float: left;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+/* line 66, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-hdr {
+    color: #3d5f7f;
+    cursor: pointer;
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    height: 30px;
+    line-height: 28px;
+    margin-bottom: 2px;
+    margin-right: 15px;
+}
+/* line 77, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-hdr:hover {
+  text-decoration: underline;
+}
+/* line 82, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-thumb {
+  background-color: #fff;
+/*  border: 1px solid #d9d9d9;*/
+/*  box-shadow: 1px 1px 0 #cccccc;*/
+  float: left;
+  height: 75px;
+  margin-right: 10px;
+  margin-top: 3px;
+  width: 100px;
+  overflow:hidden;
+}
+
+.open-datasub {
+    float: left;
+    width: 100%;
+}
+
+.btn-plus {
+    background-color: #eee;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #8792a4 !important;
+    cursor: pointer;
+    float: left;
+    margin-top: 2px;
+    padding: 5px 10px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.btn-plus:hover {
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+}
+
+/* line 94, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-space {
+  background-image: url("../css/images/Inbox.png");
+  background-position: -4px -555px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+/* line 101, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-data {
+  background-image: url("../css/images/Inbox.png");
+  background-position: -4px -8px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+/* line 108, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-temp {
+  background-image: url("../css/images/Inbox.png");
+  background-position: -4px -52px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+/* line 116, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-txt-wrap {
+  float: left;
+  width: calc(100% - 110px);
+  width: -webkit-calc(100% - 110px);
+}
+/* line 120, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-view {
+  background-image: url("../css/images/Inbox.png");
+  background-position: -1px -97px;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+/* line 127, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-link {
+  color: #3d5f7f;
+  float: left;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* line 134, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-txt {
+  clear: left;
+  font-size: 15px;
+  font-weight: 300;
+}
+/* line 140, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-tag-wrap {
+  margin-top: 5px;
+}
+/* line 143, C:/inetpub/wwwroot/Public/scss/layout/_public.scss */
+.data-wrap .open-tag-wrap .open-tags {
+  background-color: #8792a4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: default;
+  font-size: 13px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  padding: 2px 5px;
+}
+
+.open-tag-wrap .open-tags {
+  background-color: #8792a4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  cursor: default;
+  font-size: 13px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  padding: 2px 5px;
+}
+
+/* line 1, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn, .btn-default, .btn-default-full, .btn-grey, .btn-big, .btn-big-grey, .btn-signin {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 6px 12px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+/* line 11, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn:hover, .btn-default:hover, .btn-default-full:hover, .btn-grey:hover, .btn-big:hover, .btn-big-grey:hover, .btn-signin:hover {
+  background-color: #333333;
+}
+
+/* line 16, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-default {
+  background-color: #2c3e50;
+}
+
+
+
+
+/* line 1, ../scss/layout/_view.scss */
+.sub-header {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.1);
+  height: 50px;
+  margin: 50px 0 0;
+}
+
+.dropdown-menu > li {
+    cursor: default;
+    padding: 6px 12px;
+    transition: all 0.2s ease-in 0s;
+    width: 100%;
+}
+
+.dropdown-menu > li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* line 9, ../scss/layout/_view.scss */
+.back-button {
+  border-radius: 50%;
+  color: #8792a4;
+  cursor: pointer;
+  font-size: 2.2em;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 8px;
+  width: 35px;
+}
+
+/* line 20, ../scss/layout/_view.scss */
+.view-filter-wrap {
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+/* line 24, ../scss/layout/_view.scss */
+.view-filter-wrap li {
+  display: inline-block;
+  float: left;
+}
+/* line 29, ../scss/layout/_view.scss */
+.view-filter-wrap .view-filter-btn {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #828a91;
+  cursor: pointer;
+  font-size: 1.2em;
+  height: 35px;
+  line-height: 2.4em;
+  margin-right: 5px;
+  text-align: center;
+  transition: all 0.2s ease-in 0s;
+  width: 35px;
+}
+/* line 41, ../scss/layout/_view.scss */
+.view-filter-wrap .view-filter-btn:hover {
+  background-color: #3087c2;
+  color: #fff;
+}
+
+/* line 50, ../scss/layout/_view.scss */
+.view-hdr-txt {
+  color: #444444;
+  font-weight: 300;
+}
+
+/* line 55, ../scss/layout/_view.scss */
+.view-hdr-p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 60, ../scss/layout/_view.scss */
+.grid-wrap {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 550px;
+    overflow: auto;
+    vertical-align: middle;
+}
+
+
+
+/* line 21, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-default-full {
+  background-color: #2c3e50;
+  width: 100%;
+}
+
+/* line 27, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-grey {
+  background-color: #555;
+}
+
+/* line 32, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-big, .btn-big-grey, .btn-signin {
+  background-color: #2c3e50;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 1px;
+  padding: 10px;
+  width: 190px;
+}
+
+/* line 42, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-big-grey {
+  background-color: #555;
+}
+/* line 47, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-big-grey:hover {
+  background-color: #333333;
+}
+
+/* line 52, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-signin {
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+}
+
+.btn-white:hover {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+}
+
+.btn-green {
+    background-color: #8fb021;
+    border: 1px solid #8fb021;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 4px;
+    margin-top: 8px;
+    min-width: 60px;
+    transition: all 0.2s ease-in 0s;
+}
+
+.btn-green:hover {
+    background-color: #7c9a18;
+    color: #fff;
+}
+
+/* line 60, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.tab-selected {
+  color: #2c3e50 !important;
+}
+
+/* line 65, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.filter-btn {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #828a91;
+  cursor: pointer;
+  font-size: 1.3em;
+  height: 45px;
+  line-height: 2.5em;
+  margin-right: 5px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  width: 45px;
+}
+/* line 76, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.filter-btn:hover {
+  background-color: #3087c2;
+  color: #fff;
+}
+
+/* line 82, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.tab-selected {
+  background-color: #3498db !important;
+  color: #fff !important;
+}
+
+/* line 88, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-social-icon {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background-color: #2c3e50;
+  color: #fff !important;
+  cursor: pointer;
+  float: left;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 5px;
+  text-align: center;
+  width: 25px !important;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+}
+/* line 101, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+.btn-social-icon:hover {
+  background-color: #333333;
+}
+
+/* line 1, ../scss/layout/_pagin.scss */
+.pagination {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+/* line 6, ../scss/layout/_pagin.scss */
+.pagination li > a, .pagination li > span {
+  background-color: transparent;
+  border: medium none;
+  color: #3498db;
+}
+/* line 12, ../scss/layout/_pagin.scss */
+.pagination .active > a, .pagination .active > a:focus, .pagination .active > a:hover, .pagination .active > span, .pagination .active > span:focus, .pagination .active > span:hover {
+  background-color: #3498db;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 17, ../scss/layout/_pagin.scss */
+.pagination .disabled > a, .pagination .disabled > a:focus, .pagination .disabled > a:hover, .pagination .disabled > span, .pagination .disabled > span:focus, .pagination .disabled > span:hover {
+  background-color: transparent;
+}
+/* line 21, ../scss/layout/_pagin.scss */
+.pagination li > a:focus, .pagination li > a:hover, .pagination li > span:focus, .pagination li > span:hover {
+  background-color: transparent;
+  color: #2c3e50;
+}
+/* line 26, ../scss/layout/_pagin.scss */
+.pagination li:last-child > a, .pagination li:last-child > span, .pagination li:first-child > a, .pagination li:first-child > span {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* line 107, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+  .btn, .btn-default, .btn-default-full, .btn-grey, .btn-big, .btn-big-grey, .btn-signin {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* line 112, C:/inetpub/wwwroot/Public/scss/modules/_buttons.scss */
+  .btn-big, .btn-big-grey, .btn-signin {
+    margin-bottom: 15px;
+  }
+}
+/* line 2, C:/inetpub/wwwroot/Public/scss/modules/_inputs.scss */
+.form-control, .form-control-login {
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d2d6de;
+  box-sizing: border-box;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: none;
+  color: #555;
+  display: block;
+  font-size: 14px;
+  height: 34px;
+  letter-spacing: 0.2px;
+  line-height: 1.42857;
+  padding: 6px 12px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  width: 100%;
+}
+/* line 19, C:/inetpub/wwwroot/Public/scss/modules/_inputs.scss */
+.form-control:focus, .form-control-login:focus {
+  background-color: #f5f5f5;
+}
+
+/* line 25, C:/inetpub/wwwroot/Public/scss/modules/_inputs.scss */
+textarea.form-control, textarea.form-control-login {
+  font-family: "Roboto";
+  height: auto;
+}
+
+/* line 30, C:/inetpub/wwwroot/Public/scss/modules/_inputs.scss */
+.form-control-login {
+  height: 40px;
+}
+
+/* line 2, C:/inetpub/wwwroot/Public/scss/modules/_search.scss */
+.Search-wrap {
+  border: 1px solid #b2b2b2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  height: 45px;
+  width: 100%;
+}
+/* line 8, C:/inetpub/wwwroot/Public/scss/modules/_search.scss */
+.Search-wrap input {
+  border: medium none;
+  float: left;
+  font-size: 1.2em;
+  line-height:1.2em;
+  font-weight: 300;
+  height: 100%;
+  padding-left: 12px;
+  width: calc(100% - 50px);
+  width: -webkit-calc(100% - 50px);
+}
+/* line 19, C:/inetpub/wwwroot/Public/scss/modules/_search.scss */
+.Search-wrap .search-btn {
+  background-color: #3498db;
+  cursor: pointer;
+  color: #fff;
+  float: left;
+  font-size: 20px;
+  height: 100%;
+  line-height: 40px;
+  -webkit-transition: all 0.2s ease-in 0s;
+  -moz-transition: all 0.2s ease-in 0s;
+  -ms-transition: all 0.2s ease-in 0s;
+  -o-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  width: 50px;
+}
+/* line 30, C:/inetpub/wwwroot/Public/scss/modules/_search.scss */
+.Search-wrap .search-btn:hover {
+  background-color: #3087c2;
+}
+
+/* line 13, ../scss/main.scss */
+.margin-0 {
+  margin: 0;
+}
+
+/* line 17, ../scss/main.scss */
+.margin-t20 {
+  margin-top: 20px;
+}
+
+/* line 21, ../scss/main.scss */
+.margin-b20 {
+  margin-bottom: 20px;
+}
+
+/* line 25, ../scss/main.scss */
+.margin-15 {
+  margin: 15px;
+}
+
+/* line 29, ../scss/main.scss */
+.padding-0 {
+  padding: 0;
+}
+
+/* line 35, ../scss/main.scss */
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #bbb -moz-use-text-color -moz-use-text-color;
+  border-image: none;
+  border-style: solid none none;
+  border-width: 1px 0 0;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+/* ------------- media queries --------------- */
+@media (max-width: 1280px) {
+  /* line 55, ../scss/main.scss */
+  .container {
+    width: 100% !important;
+  }
+}
+@media (max-width: 960px) {
+  /* line 62, ../scss/main.scss */
+  .count {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .filter-tool {
+    cursor: pointer;
+    float: right;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    transition: all 0.2s ease-in 0s;
+    width: 100%;
+  }
+
+}
+@media (max-width: 560px) {
+  /* line 70, ../scss/main.scss */
+  .navbar-header {
+    margin-left: 0 !important;
+  }
+
+  /* line 74, ../scss/main.scss */
+  .view-filter {
+    margin: 25px auto 0 !important;
+    width: 150px !important;
+  }
+
+  /* line 78, ../scss/main.scss */
+  .top-area {
+    padding: 28px 0 !important;
+  }
+
+  /* line 81, ../scss/main.scss */
+  .filter-btn {
+    line-height: 2.7em;
+  }
+
+  /* line 85, ../scss/main.scss */
+  .Search-wrap input {
+    padding-top: 5px;
+  }
+
+  .main-filter {
+    width: 100%;
+  }
+
+  /* line 89, ../scss/main.scss */
+  .main-filter > li {
+    margin: 10px 25px 0 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  .filter-tool {
+	background-color: #ededed;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+    margin-top: 15px;
+  }
+
+  /* line 93, ../scss/main.scss */
+  .navbar-inverse .navbar-brand {
+    box-sizing: border-box;
+    color: #9d9d9d;
+    margin-left: -15px !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 101, ../scss/main.scss */
+  nav .navbar-brand {
+    font-size: 2em;
+    line-height: 25px;
+  }
+
+  /* line 106, ../scss/main.scss */
+  .data-wrap .open-thumb {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 111, ../scss/main.scss */
+  .open-data-fullwidth {
+    margin: 0 !important;
+  }
+
+  /* line 115, ../scss/main.scss */
+  .data-wrap .open-thumb {
+    margin-bottom: 10px;
+  }
+}
+
+.view-filter .fa {
+    margin-top: 14px;
+}
+
+.view-filter-wrap .fa {
+    margin-top: 10px;
+}
+
+.search-btn .fa {
+    margin-top: 11px;
+}
+
+.containerWrp11 {
+    overflow-y:auto;
+    width:100%;
+    height:100%;
+    float:left;
+}
+
+.open-sep {
+    margin: 0 10px;
+}
+
+.fun-dropdown {
+    float: left;
+    margin-top: 8px;
+}
+
+.btn-search2 {
+    margin-left: 2px;
+    padding: 9px 12px !important;
+}
+
+.con-wrapper {
+    height: calc(100% - 100px);
+    height: -webkit-calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.btn-search {
+    margin-left: 3px;
+    padding: 9px 12px;
+}
+
+span.hilite {
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.sliderHrImg {
+    background-image: url("../css/images/Inbox.png");
+    background-position: -1px -97px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+}

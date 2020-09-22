@@ -1,0 +1,42 @@
+﻿
+.GridEleListWrp {
+    background-color: #ebf4fd;
+    border: 1px solid #c6d3e1;
+    clear: both;
+    float: left;
+    height: calc(100% - 75px);
+    overflow-y: auto;
+    top: 5px;
+    width: calc(100% - 20px);
+}
+
+
+.GridUcWrp {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    float: left;
+    height: auto;
+    min-height: 40px;
+    width: 100%;
+}
+
+.GridEleName {
+    float: left;
+    font-size: 13px;
+    margin: 10px;
+    width: 25%;
+}
+
+.GridEleLable {
+    color: #444;
+    float: left;
+    font-size: 13px;
+    margin: 10px;
+    text-align: right;
+    width: 25%;
+}
+
+.gridViewCheck {
+    float: left;
+    margin: 10px;
+}

@@ -1,0 +1,321 @@
+._22CalendarWrp {
+    float: left;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+._22FunctionWrp {
+    float: left;
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #c6d3e1;
+}
+
+._22FuncLabel {
+    padding: 0 0 0 20px;
+    /*width: calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);*/
+    box-sizing:border-box;
+
+}
+
+._22FuncEleContain {
+    float: left;
+    height: calc(100% - 30px);
+    height: -webkit-calc(100% - 30px);
+    overflow-y: auto;
+    width: 100%;
+}
+
+._22CalendarContain {
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px;
+    width: calc(100% - 441px);
+    width: -webkit-calc(100% - 441px);
+}
+
+._22DateContent {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+._22DateRow {
+    background-color: #fff;
+    float: left;
+    min-height: 50px;
+    width: 100%;
+}
+
+._22inpCheck {
+    float: left;
+    margin: 18px 0 0 20px;
+}
+
+._22EleLbl {
+    float: left;
+    height: 100%;
+    line-height: 100%;
+    margin: 17px 10px;
+    width: calc(100% - 255px);
+    width: -webkit-calc(100% - 255px);
+}
+
+._22ColorContent {
+    border-radius: 3px;
+    float: left;
+    height: 20px;
+    margin: 15px 0;
+    width: 20px;
+}
+
+._22EleDrop {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+/**Filter*/
+
+._22ConditionWrp {
+    float: left;
+    height: calc(100% - 20px);
+    height: -webkit-calc(100% - 20px);
+    margin-top: 20px;
+    width: 100%;
+}
+
+._22FilterRowWrp {
+    float: left;
+    margin: 10px 20px;
+    width: 80%;
+}
+
+
+._22FilterEle {
+    margin-top: 2px;
+    width: calc(100% - 140px);
+    width: -webkit-calc(100% - 140px);
+    float:left;
+}
+
+._22FilterText {
+    margin: 10px;
+    width: calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+}
+._22infoLbl {
+    width: 110px;
+}
+
+._22FillOparator {
+    float: left;
+    margin-top: 2px;
+    width: 200px;
+    position:relative;
+}
+
+._22FilterWrp {
+    float: left;
+    height: calc(100% - 215px);
+    height: -webkit-calc(100% - 215px);
+    margin: 20px 20px 0;
+    overflow-y: auto;
+    width: calc(100% - 40px);
+    width: -webkit-calc(100% - 40px);
+}
+
+._22ucConwrp {
+    background-color: #fff;
+    clear: both;
+    float: left;
+    font-size: 13px;
+    line-height: 27px;
+    min-height: 30px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    width: -webkit-calc(100% - 20px);
+    border-bottom: 1px solid #f2f2f2;
+}
+
+._22ucName {
+       float: left;
+}
+
+._22ucOprator {
+    color: #4a87b6;
+    float: left;
+    padding: 0 10px;
+}
+._22ucValue {
+       float: left;
+}
+._22ucRemove {
+    float: right;
+    margin: 5px 0;
+}
+
+._22Filtermsg {
+    float: right;
+    margin: 18px 10px 0;
+    width: auto;
+}
+/**end Filter*/
+
+
+
+._22NoMsgContent {
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+}
+
+._22NoMsg {
+    float: left;
+    margin-left: calc(50% - 76px);
+    margin-left: -webkit-calc(50% - 76px);
+    text-align: center;
+    width: 152px;
+}
+
+
+
+._22SelectEventWrp {
+    float: left;
+    height: calc(100% - 40px);
+    height: -webkit-calc(100% - 40px);
+    overflow-y: auto;
+    padding: 20px;
+    width: calc(100% - 40px);
+    width: -webkit-calc(100% - 40px);
+}
+
+._22EventHdr {
+    float: left;
+    height: 30px;
+    width: 100%;
+}
+
+._22EventContent {
+    float: left;
+    height: calc(100% - 11px);
+    height: -webkit-calc(100% - 11px);
+    width: 100%;
+}
+
+._22UCEventWrp {
+    background-color: #fff;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    padding: 12px 0;
+    width: 100%;
+}
+
+._22DateEle {
+    float: left;
+    margin-right: 10px;
+    width: calc(50% - 30px);
+    width: -webkit-calc(50% - 30px);
+}
+
+._22DisplayEle {
+    float: left;
+    margin-right: 10px;
+    width: calc(50% - 30px);
+    width: -webkit-calc(50% - 30px);
+}
+
+._22EventColor {
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 20px;
+}
+
+._22DateEleHdr {
+    float: left;
+    margin-left: 10px;
+    width: calc(50% - 30px);
+    width: -webkit-calc(50% - 30px);
+}
+
+._22DisplayEleHdr {
+    float: left;
+    margin-left: 10px;
+    width: calc(50% - 30px);
+    width: -webkit-calc(50% - 30px);
+}
+
+._22inpCheckNew {
+    float: left;
+    margin: 8px 10px 0 20px !important;
+}
+
+._22DateEleNew {
+    float: left;
+    width: calc(100% - 75px);
+    width: -webkit-calc(100% - 75px);
+}
+
+._22EventColorNew {
+    border-radius: 3px;
+    float: left;
+    height: 20px;
+    margin-top: 5px;
+    width: 20px;
+}
+
+
+._22AddFilter {
+    float: right;
+    margin-right: 168px;
+    margin-top: 10px;
+}
+
+._22TitleIcon {
+    background-position: 0 -770px;
+}
+
+/* map view*/
+
+._26MapContain {
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    width: calc(100% - 201px);
+    width: -webkit-calc(100% - 201px);
+}
+
+._26UCMapTip {
+    font-size: 12px;
+    margin: 2px;
+}
+
+._26MapTipLbl {
+    padding: 0 5px 0 0;
+}
+
+._26MapTipVal {
+}
+
+
+._26TitleIcon {
+    background-position: 0 -875px;
+}
+
+
+._26ImgGif {
+    border-radius: 3px;
+    height: auto;
+    margin: 0 auto;
+    width: 90px;
+}
